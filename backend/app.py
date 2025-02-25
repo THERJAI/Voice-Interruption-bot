@@ -4,7 +4,6 @@ import openai
 import json
 
 # OpenAI API Key
-openai.api_key = ""
 async def chat_with_gpt(user_input):
     """ Fetch response from GPT-4 Turbo """
     response = await openai.ChatCompletion.acreate(
